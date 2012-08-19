@@ -3972,3 +3972,219 @@ Started GET "/movies" for 127.0.0.1 at 2012-08-19 14:36:38 +0000
   [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
 Rendered movies/index.html.haml within layouts/application (105.1ms)
 Completed 200 OK in 109ms (Views: 106.8ms | ActiveRecord: 0.3ms)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 14:54:20', '2012-08-19 14:54:20')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 14:54:20', '2012-08-19 14:54:20')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 14:54:20', '2012-08-19 14:54:20')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 1245ms (Views: 1244.2ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 87ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 14:58:07', '2012-08-19 14:58:07')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 14:58:07', '2012-08-19 14:58:07')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 14:58:07', '2012-08-19 14:58:07')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 129ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 15:02:10', '2012-08-19 15:02:10')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 15:02:10', '2012-08-19 15:02:10')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 15:02:10', '2012-08-19 15:02:10')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 1259ms (Views: 1258.7ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 99ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 15:09:08', '2012-08-19 15:09:08')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 15:09:08', '2012-08-19 15:09:08')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 15:09:08', '2012-08-19 15:09:08')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 15:18:47', '2012-08-19 15:18:47')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 15:18:47', '2012-08-19 15:18:47')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 15:18:47', '2012-08-19 15:18:47')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 1259ms (Views: 1258.8ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "movies" ("id", "title", "created_at", "updated_at") VALUES (1, 'Movie1', '2012-08-19 15:31:52', '2012-08-19 15:31:52')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (2, 'Movie2', 'Director1', '2012-08-19 15:31:52', '2012-08-19 15:31:52')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "movies" ("id", "title", "director", "created_at", "updated_at") VALUES (3, 'Movie3', 'Director1', '2012-08-19 15:31:52', '2012-08-19 15:31:52')
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Rendered movies/similar_movies.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 1328ms (Views: 1327.2ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 112ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1ms
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (115.7ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "PG"], ["release_date", Wed, 25 May 1977 00:00:00 UTC +00:00], ["title", "Star Wars"], ["updated_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00], ["description", nil], ["director", "Ridley Scott"], ["rating", "PG"], ["release_date", Fri, 25 Jun 1982 00:00:00 UTC +00:00], ["title", "Blade Runner"], ["updated_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00], ["description", nil], ["director", ""], ["rating", "R"], ["release_date", Fri, 25 May 1979 00:00:00 UTC +00:00], ["title", "Alien"], ["updated_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "R"], ["release_date", Thu, 11 Mar 1971 00:00:00 UTC +00:00], ["title", "THX-1138"], ["updated_at", Sun, 19 Aug 2012 15:34:43 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."title" = 'Alien' LIMIT 1[0m
+
+
+Started GET "/movies/3/edit" for 127.0.0.1 at 2012-08-19 15:34:44 +0000
+  Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", "3"]]
+Rendered movies/edit.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 274ms (Views: 272.7ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/movies/3" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "movie"=>{"title"=>"Alien", "rating"=>"R", "release_date(1i)"=>"1979", "release_date(2i)"=>"5", "release_date(3i)"=>"25", "director"=>"Ridley Scott"}, "commit"=>"Update Movie Info", "id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "movies" SET "director" = 'Ridley Scott', "updated_at" = '2012-08-19 15:34:45.362604' WHERE "movies"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/movies/3
+Completed 302 Found in 5ms
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Rendered movies/show.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.1ms)
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."title" = 'Alien' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "PG"], ["release_date", Wed, 25 May 1977 00:00:00 UTC +00:00], ["title", "Star Wars"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "Ridley Scott"], ["rating", "PG"], ["release_date", Fri, 25 Jun 1982 00:00:00 UTC +00:00], ["title", "Blade Runner"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", ""], ["rating", "R"], ["release_date", Fri, 25 May 1979 00:00:00 UTC +00:00], ["title", "Alien"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "R"], ["release_date", Thu, 11 Mar 1971 00:00:00 UTC +00:00], ["title", "THX-1138"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."title" = 'Star Wars' LIMIT 1[0m
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered movies/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/similar_movies/1" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."director" = 'George Lucas'
+Rendered movies/similar_movies.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."title" = 'Star Wars' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "PG"], ["release_date", Wed, 25 May 1977 00:00:00 UTC +00:00], ["title", "Star Wars"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "Ridley Scott"], ["rating", "PG"], ["release_date", Fri, 25 Jun 1982 00:00:00 UTC +00:00], ["title", "Blade Runner"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", ""], ["rating", "R"], ["release_date", Fri, 25 May 1979 00:00:00 UTC +00:00], ["title", "Alien"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("created_at", "description", "director", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00], ["description", nil], ["director", "George Lucas"], ["rating", "R"], ["release_date", Thu, 11 Mar 1971 00:00:00 UTC +00:00], ["title", "THX-1138"], ["updated_at", Sun, 19 Aug 2012 15:34:45 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."title" = 'Alien' LIMIT 1
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Rendered movies/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/similar_movies/3" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#similar_movies as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", "3"]]
+Redirected to http://www.example.com/movies
+Completed 302 Found in 3ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-08-19 15:34:45 +0000
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Rendered movies/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.2ms)

@@ -20,9 +20,10 @@ describe MoviesController do
       assigns(:movies).should == @fake_results
     end
     it 'should select the home page on error' do
-      Movie.stub(:find_similar_movies).and_raise(Movie::NoDirectorError)
+      Movie.stub(:find_similar_movies).and_raise(Movie::NoDirectorError.new("'Movie' has no director info"))
       get :similar_movies, {:id => '1'}
-      response.should redirect_to('/')
+      response.should redirect_to('/movies')
+      flash[:notice].should include('has no director info')
     end
   end
 end
