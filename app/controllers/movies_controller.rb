@@ -63,8 +63,9 @@ class MoviesController < ApplicationController
   def similar_movies
     begin
       @movies = Movie.find_similar_movies(params[:id])
-    rescue Movie::NoDirectorError
-      redirect_to movies_path
+    rescue Movie::NoDirectorError => no_director_error
+      flash[:notice] = no_director_error.message
+      redirect_to :root
     end
   end
 
