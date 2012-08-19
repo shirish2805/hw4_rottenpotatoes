@@ -31,6 +31,9 @@ module NavigationHelpers
     when /^the Similar Movies page for "(.*)"$/
       "/movies/similar_movies/#{Movie.find_by_title($1).id}"
       
+    when /^the Create New Movie page$/
+      "/movies/new"
+      
     else
       begin
         page_name =~ /^the (.*) page$/
