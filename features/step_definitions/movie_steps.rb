@@ -27,7 +27,7 @@ When /I (un)?check the following ratings: (.*)/ do |uncheck, rating_list|
 end
 
 Then /I should see all of the movies/ do
-  movie_rows = find_by_id('movielist').all('tr')
+  movie_rows = find_by_id('movies').all('tbody')[0].all('tr')
   movie_rows.count.should == 10
 end
 
